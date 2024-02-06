@@ -12,7 +12,7 @@ include-before = [
 ]
 
 [target.LLVMDemangle]
-type = "shared"
+type = "library"
 sources = ["llvm/**.cpp", "include/**.h", "LLVMDemangle.cpp"]
 include-directories = ["include"]
 compile-features = ["cxx_std_14"]

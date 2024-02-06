@@ -5,8 +5,8 @@ extern "C"
 {
 #endif
 
-__declspec(dllexport) char* LLVMDemangle(const char* MangledName);
-__declspec(dllexport) void LLVMDemangleFree(char* DemangledName);
+char* LLVMDemangle(const char* MangledName);
+void LLVMDemangleFree(char* DemangledName);
 
 #ifdef __cplusplus
 }
