@@ -62,7 +62,7 @@ list(APPEND LLVMDemangle_SOURCES
 )
 
 set(CMKR_SOURCES ${LLVMDemangle_SOURCES})
-add_library(LLVMDemangle SHARED)
+add_library(LLVMDemangle)
 
 if(LLVMDemangle_SOURCES)
 	target_sources(LLVMDemangle PRIVATE ${LLVMDemangle_SOURCES})
