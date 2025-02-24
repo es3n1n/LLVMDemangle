@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <cstdlib>
+#include <cstring>
 
 #include <LLVMDemangle.h>
 
